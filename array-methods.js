@@ -13,7 +13,7 @@ const planetEl = document.getElementById("planets")
     planetEl.innerHTML += `
     <h2>${planet[i]}</h2>
     `
-  })
+  });
 
 /*
     Use the map method to create a new array where the
@@ -22,6 +22,7 @@ const planetEl = document.getElementById("planets")
 
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
 */
+planets.map(planets.toUpperCase());
 
 
 /*
@@ -31,3 +32,4 @@ const planetEl = document.getElementById("planets")
 
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes
 */
+planets.includes('e');
